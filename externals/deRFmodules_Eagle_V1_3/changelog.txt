@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                                 Eagle library
+
+                                      for 
+
+                  dresden elektronik ingenieurtechnik gmbh's 
+
+                       2.4 GHz and sub-GHz radio modules
+
+                   dresden elektronik ingenieurtechnik gmbh 
+
+                        http://www.dresden-elektronik.de
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                   LEGAL NOTICE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The library is provided   to customer "as is"   and "with all faults."   dresden
+elektronik  ingenieurtechnik   gmbh  does   not  make,   and  dresden elektronik
+ingenieurtechnik gmbh  hereby disclaims,  any representations  or warranties  of
+any kind whether  express, implied, statutory  or otherwise in  connection  with
+the  library  or   any  other aspect   of  this  agreement,   including, without
+limitation, any implied  warranty of merchantability,  fitness for a  particular
+purpose, title or  non-infringement of third  party rights, and  any  warranties
+that may  arise from   course of  dealing, course   of performance  or usage  of
+trade. dresden elektronik  ingenieurtechnik gmbh will  have no obligation  under
+this agreement to correct  any bugs, defects or  errors in the library,  provide
+any updates, upgrades   or new releases   of the library,   or otherwise provide
+any technical support or maintenance for the library.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+changelog 2013-06-25 deRFmodules.lbr V1.3
+-----------------------------------------
+
+- new devices added
+  - deRFmega128-22T00
+  - deRFmega128-22T02
+  - deRFmega128-22T13
+  - deRFmega256-23M00
+  - deRFmega256-23M10
+  - deRFmega256-23M12
+  - deRFmega256-23T00
+  - deRFmega256-23T02
+  - deRFmega256-23T13
+  - deRFsam3-13M10
+  - deRFsam3-23M10-2
+  - deRFsam3-23M10-3R
+  - deRFsam3-13T02
+  - deRFsam3-23T02-2
+  
+- footprint designation corrected in RF pad section (according to data sheet)
+  RFOUT0 changed to RFOUT1
+  RFOUT1 changed to RFOUT2
+  valid for:
+  - deRFmega128-22M12
+  - deRFmega256-23M12
+
+- RF pad design: small stub removed
+  valid for:
+  - deRFmega128-XXM10
+  - deRFmega128-XXM12
+  
+- changes on symbols:
+  - all schematic symbols updated to more usability (Signal positions changed!)
+  - hint on TST pin added
+  - hint on RF functional pins added (deRFmegaXXX-XXM12)
+  - AVDD renamed to AVDDOUT
+
+- changes on device names:
+  - 'XX' substituted with datasheet name
+  
+********************************************************************************
+*                             WARNING                                          *
+********************************************************************************
+Due to signal name changes in the schematics of this library it is intended for 
+new projects only. Updateing existing EAGLE projects using earlier versions of 
+this library may change the schematic. Keep in mind that you have to check 
+and/or change your schematic parts and signals after library update!
+********************************************************************************
+
+
+
+changelog 2012-10-05 deRFmodules.lbr V1.2
+-----------------------------------------
+- new devices added
+  - deRFmega128-XXM00
+  - deRFmega128-XXM10
+  - deRFmega128-XXM12
+  - deRFsam3-1XM10
+  - deRFsam3-2XM10-2
+  - deRFsam3-2XM10-3
+  
+
+changelog 2012-02-01 deRFmodules.lbr V1.1
+-----------------------------------------
+- symbols aligned on grid, origin is symbol center
+- symbols moved to layer 94
+- >NAME added
+- >VALUE replaced by fixed text due to missing case sensitivity support for names
+- pin sorting in symbols changed for better replacement
+- description for library, package, device added
+- bugfix: no description for symbols, they were missplaced as library description
+
+
+EOF
