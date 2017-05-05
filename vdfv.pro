@@ -1,4 +1,4 @@
-update=10-Jan-17 10:21:17 PM
+update=22-Jan-17 12:55:47 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,9 +6,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../../../../Program Files/KiCad/share/kicad/library/contrib_symbols_dl1eic;../../../Desktop/swarm project/New folder
+LibDir=../../../../../Program Files/KiCad/share/kicad/library/contrib_symbols_dl1eic;../../../Desktop/swarm project/New folder;F:/Acronet-KiCAD-Libraries-master
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -52,20 +62,11 @@ LibName39=Symbols_ICs-Opto_RevB_16Sep2013
 LibName40=Symbols_Socket-DIN41612_RevA
 LibName41=Symbols_Transformer-Diskrete_RevA
 LibName42=SymbolsSimilarEN60617+oldDIN617-RevE8
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName43=F:/Acronet-KiCAD-Libraries-master/ACRONET
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=vdfv2.net
+LastNetListRead=vdfv3.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
